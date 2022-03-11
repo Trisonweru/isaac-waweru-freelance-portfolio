@@ -42,17 +42,26 @@ function Social({ dark }: props) {
         animate={animationControl}
         className='flex flex-col h-full items-center justify-center rounded-r-md space-y-2 w-full'
       >
-        <UnstyledLink href='https://twitter.com/TrisonWaweru'>
+        <UnstyledLink
+          href='https://twitter.com/TrisonWaweru'
+          className='cursor-pointer'
+        >
           <div className='backdrop-brightness-50 cursor-pointer px-1.5 py-1.5 rounded-full hover:backdrop-brightness-0'>
             <UilTwitterAlt size='1.3em' />
           </div>
         </UnstyledLink>
-        <UnstyledLink href='https://www.facebook.com/weshly.weru.7'>
+        <UnstyledLink
+          href='https://www.facebook.com/weshly.weru.7'
+          className='cursor-pointer'
+        >
           <div className='backdrop-brightness-50 cursor-pointer px-1.5 py-1.5 rounded-full hover:backdrop-brightness-0'>
             <UilFacebookF size='1.3em' />
           </div>
         </UnstyledLink>
-        <UnstyledLink href='https://www.linkedin.com/in/isaac-waweru-6b7877167/'>
+        <UnstyledLink
+          href='https://www.linkedin.com/in/isaac-waweru-6b7877167/'
+          className='cursor-pointer'
+        >
           <div className='backdrop-brightness-50 cursor-pointer px-1.5 py-1.5 rounded-full hover:backdrop-brightness-0'>
             <UilLinkedinAlt size='1.3em' />
           </div>
