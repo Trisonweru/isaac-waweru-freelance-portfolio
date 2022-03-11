@@ -1,11 +1,36 @@
+import { motion, useAnimation } from 'framer-motion';
 import React from 'react';
+import { useInView } from 'react-intersection-observer';
 
 import UnstyledLink from './links/UnstyledLink';
 
 function Experience() {
+  const { inView, entry, ref } = useInView();
+  const animationControl = useAnimation();
+
+  if (inView) {
+    animationControl.start({
+      scale: 1,
+      opacity: 1,
+      transition: {
+        delay: 0.2,
+        ease: 'easeInOut',
+      },
+    });
+  }
   return (
-    <div className='flex items-center justify-center mb-3 mt-7 px-3 w-full'>
-      <div className='bg-gradient-to-b flex from-[#C31260] justify-center rounded-md to-[#500621] w-full'>
+    <div
+      ref={ref}
+      className='flex items-center justify-center mb-3 mt-7 px-3 w-full'
+    >
+      <motion.div
+        initial={{
+          scale: 0,
+          opacity: 0,
+        }}
+        animate={animationControl}
+        className='bg-gradient-to-b flex from-[#C31260] justify-center rounded-md to-[#500621] w-full'
+      >
         <div className='flex flex-col items-center justify-center px-3 py-4 space-y-3 text-center text-white w-full'>
           <h2 className='text-sm'>Work Experience</h2>
           <div className='flex flex-col items-center justify-center space-y-3 w-full'>
@@ -28,7 +53,7 @@ function Experience() {
             </UnstyledLink>
           </div>
         </div>
-      </div>
+      </motion.div>
     </div>
   );
 }

@@ -1,15 +1,51 @@
 /* eslint-disable @next/next/no-img-element */
 /* eslint-disable jsx-a11y/alt-text */
+import { motion, useAnimation } from 'framer-motion';
 import React from 'react';
+import { useInView } from 'react-intersection-observer';
 
 import UnstyledLink from './links/UnstyledLink';
 interface props {
   dark: boolean;
 }
 function Projects({ dark }: props) {
+  const { inView, entry, ref } = useInView();
+  const animationControl = useAnimation();
+  const animationControl2 = useAnimation();
+  const animationControl3 = useAnimation();
+  if (inView) {
+    animationControl.start({
+      x: 0,
+      transition: {
+        delay: 0.2,
+        ease: 'linear',
+      },
+    });
+    animationControl2.start({
+      x: 0,
+      transition: {
+        delay: 0.4,
+        ease: 'linear',
+      },
+    });
+    animationControl3.start({
+      x: 0,
+      transition: {
+        delay: 0.6,
+        ease: 'linear',
+      },
+    });
+  }
   return (
-    <div className='flex flex-col h-auto items-center mt-8 px-3 space-y-8 w-full'>
-      <div
+    <div
+      ref={ref}
+      className='flex flex-col h-auto items-center mt-8 overflow-x-hidden px-3 space-y-8 w-full'
+    >
+      <motion.div
+        initial={{
+          x: '100vw',
+        }}
+        animate={animationControl}
         className={
           dark
             ? 'bg-[#031E45] flex flex-col items-center pb-2 rounded-md shadow-[#112035] shadow-md space-y-4 w-full md:flex-row md:pb-0'
@@ -70,13 +106,17 @@ function Projects({ dark }: props) {
             </UnstyledLink>
           </div>
         </div>
-      </div>
-      <div
+      </motion.div>
+      <motion.div
         className={
           dark
             ? 'bg-[#031E45] flex flex-col items-center pb-2 rounded-md shadow-[#112035] shadow-md space-y-4 w-full md:flex-row-reverse md:pb-0'
             : 'bg-[#808080] flex flex-col items-center pb-2 rounded-md shadow-[#808080] shadow-md space-y-4 w-full md:flex-row-reverse md:pb-0'
         }
+        initial={{
+          x: '-100vw',
+        }}
+        animate={animationControl2}
       >
         <div className='flex items-center w-full'>
           <img
@@ -132,13 +172,17 @@ function Projects({ dark }: props) {
             </UnstyledLink>
           </div>
         </div>
-      </div>
-      <div
+      </motion.div>
+      <motion.div
         className={
           dark
             ? 'bg-[#031E45] flex flex-col items-center pb-2 rounded-md shadow-[#112035] shadow-md space-y-4 w-full md:flex-row md:pb-0'
             : 'bg-[#808080] flex flex-col items-center pb-2 rounded-md shadow-[#808080] shadow-md space-y-4 w-full md:flex-row md:pb-0'
         }
+        initial={{
+          x: '100vw',
+        }}
+        animate={animationControl3}
       >
         <div className='flex items-center w-full'>
           <img
@@ -197,7 +241,7 @@ function Projects({ dark }: props) {
             </UnstyledLink>
           </div>
         </div>
-      </div>
+      </motion.div>
     </div>
   );
 }

@@ -1,14 +1,32 @@
 /* eslint-disable @next/next/no-img-element */
 /* eslint-disable react/no-unescaped-entities */
+import { motion, useAnimation } from 'framer-motion';
 import { DownloadOutline } from 'heroicons-react';
+import { useInView } from 'react-intersection-observer';
 
 import UnstyledLink from './links/UnstyledLink';
 interface props {
   dark: boolean;
 }
 const Hero = ({ dark }: props) => {
+  const { inView, entry, ref } = useInView();
+  const animationControl = useAnimation();
+
+  if (inView) {
+    animationControl.start({
+      scale: 1,
+      opacity: 1,
+      transition: {
+        delay: 0.4,
+        ease: 'easeInOut',
+      },
+    });
+  }
   return (
-    <div className='flex flex-wrap-reverse h-[650px] items-center justify-center px-3 w-full md:h-[500px] md:justify-between'>
+    <div
+      ref={ref}
+      className='flex flex-wrap-reverse h-[650px] items-center justify-center px-3 w-full md:h-[500px] md:justify-between'
+    >
       <div className='flex flex-col justify-center max-w-2xl space-y-6 w-full md:h-full md:w-[80%]'>
         <h1
           className={
@@ -52,7 +70,14 @@ const Hero = ({ dark }: props) => {
           </a>
         </div>
       </div>
-      <div className='flex items-center justify-center relative md:h-full'>
+      <motion.div
+        initial={{
+          scale: 0,
+          opacity: 0,
+        }}
+        animate={animationControl}
+        className='flex items-center justify-center relative md:h-full'
+      >
         <div className='-rotate-6 bg-[#8a5f6e] h-[250px] rounded-md shadow-xl w-[300px] md:w-[350px]'></div>
         <div className='absolute bg-[#112035] h-[250px] rounded-md shadow-md w-[300px] md:w-[350px]'>
           <img
@@ -61,7 +86,7 @@ const Hero = ({ dark }: props) => {
             className='h-full object-cover rounded-md shadow-md w-full'
           />
         </div>
-      </div>
+      </motion.div>
     </div>
   );
 };
