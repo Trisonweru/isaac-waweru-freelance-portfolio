@@ -7,6 +7,7 @@ import Layout from '@/components/layout/Layout';
 import UnstyledLink from '@/components/links/UnstyledLink';
 import MapComponent from '@/components/Map';
 import Seo from '@/components/Seo';
+import Social from '@/components/Social';
 
 import { useAppCtx } from '@/context/context';
 
@@ -90,6 +91,7 @@ function Contact() {
               </form>
             </div>
           </div>
+          <Social dark={dark} />
         </section>
         <MapComponent />
         <Footer />

@@ -15,6 +15,7 @@ import MapComponent from '@/components/Map';
 import Projects from '@/components/Projects';
 import Seo from '@/components/Seo';
 import Skills from '@/components/Skills';
+import Social from '@/components/Social';
 
 import { useAppCtx } from '@/context/context';
 
@@ -64,6 +65,10 @@ export default function HomePage() {
           rel='stylesheet'
           href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css'
         ></link>
+        <link
+          rel='stylesheet'
+          href='https://unicons.iconscout.com/release/v4.0.0/css/line.css'
+        ></link>
       </Head>
       <Layout>
         <Seo templateTitle='Freelance Web Developer' />
@@ -79,6 +84,7 @@ export default function HomePage() {
               <Skills />
               <Experience />
             </div>
+            <Social dark={dark} />
           </section>
           <MapComponent />
           <Footer />

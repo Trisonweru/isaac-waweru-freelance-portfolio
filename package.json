@@ -20,6 +20,7 @@
     "prepare": "husky install"
   },
   "dependencies": {
+    "@iconscout/react-unicons": "^1.1.6",
     "@sendgrid/mail": "^7.6.1",
     "clsx": "^1.1.1",
     "framer-motion": "^6.2.8",
