@@ -4,7 +4,9 @@ import sendgrid from '@sendgrid/mail';
 
 sendgrid.setApiKey(process.env.SENDGRID_API_KEY || '');
 async function sendEmail(
-  req: { body: { project: any; name: any; email: any; message: any } },
+  req: {
+    body: { data: { project: any; name: any; email: any; message: any } };
+  },
   res: {
     status: (arg0: number) => {
       (): any;
@@ -17,7 +19,7 @@ async function sendEmail(
     await sendgrid.send({
       to: 'isaactrisonwaweru@gmail.com', // Your email where you'll receive emails
       from: 'isaactrisonwaweru@gmail.com', // your website email address here
-      subject: `[Lead from website] - ${req.body.project}`,
+      subject: `[Lead from website] - ${req.body.data.project}`,
       html: `<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
       <html lang="en">
       <head>
@@ -36,16 +38,16 @@ async function sendEmail(
         <div class="img-container" style="display: flex;justify-content: center;align-items: center;border-radius: 5px;overflow: hidden; font-family: 'helvetica', 'ui-sans';">              
               </div>
               <div class="container" style="margin-left: 20px;margin-right: 20px;">
-              <h3>You've got a new mail from ${req.body.name}, their email is: ${req.body.email} </h3>
+              <h3>You've got a new mail from ${req.body.data.name}, their email is: ${req.body.data.email} </h3>
               <div style="font-size: 16px;">
               <p>Message:</p>
-              <p>${req.body.message}</p>
+              <p>${req.body.data.message}</p>
               <br>
               </div>
              
               <p class="footer" style="font-size: 16px;padding-bottom: 20px;border-bottom: 1px solid #D1D5DB;">Regards,<br>Isaac Waweru<br>Software Developer<br>+254-705992717</p>
               <div class="footer-links" style="display: flex;justify-content: center;align-items: center;">
-                <a href="https://portfolio-web-app-theta.vercel.app" style="text-decoration: none;margin: 8px;color: #9CA3AF;">Website</a>
+                <a href="https://isaac-waweru-freelance-portfolio.vercel.app/" style="text-decoration: none;margin: 8px;color: #9CA3AF;">Website</a>
                 <a href="https://github.com/Trisonweru?tab=repositories" style="text-decoration: none;margin: 8px;color: #9CA3AF;">GitHub</a>
                 <a href="https://www.linkedin.com/in/isaac-waweru-6b7877167/" style="text-decoration: none;margin: 8px;color: #9CA3AF;">LinkedIn</a>
                 <a href="https://twitter.com/TrisonWaweru" style="text-decoration: none;margin: 8px;color: #9CA3AF;">Twitter</a>
@@ -62,7 +64,3 @@ async function sendEmail(
 }
 
 export default sendEmail;
-
-{
-  /* <a href="https://manuarora.in/blog/" style="text-decoration: none;margin: 8px;color: #9CA3AF;">Blog</a> */
-}

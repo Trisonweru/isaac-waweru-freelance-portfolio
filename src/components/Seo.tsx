@@ -10,7 +10,7 @@ const defaultMeta = {
   description:
     'Isaac Waweru is a freelance web developer with 3 years of experience as a full stack web developer. My strongest skills are ReactJS, NextJS, Tailwinds CSS, Redux, PostgreSQL, Primsa, AngularJS, GraphQL, Docker, MySQL, MongoDB, NodeJS, Apollo Client and Apollo Server',
   /** Without additional '/' on the end, e.g. https://theodorusclarence.com */
-  url: 'https://tsnext-tw.thcl.dev',
+  url: 'https://isaac-waweru-freelance-portfolio.vercel.app',
   type: 'website',
   robots: 'follow, index',
   /** No need to be filled, will be populated with openGraph function */
