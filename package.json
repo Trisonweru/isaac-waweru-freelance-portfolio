@@ -21,6 +21,7 @@
   },
   "dependencies": {
     "@iconscout/react-unicons": "^1.1.6",
+    "@iconscout/unicons": "^4.0.1",
     "@sendgrid/mail": "^7.6.1",
     "clsx": "^1.1.1",
     "framer-motion": "^6.2.8",

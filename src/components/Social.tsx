@@ -30,8 +30,8 @@ function Social({ dark }: props) {
       ref={ref}
       className={
         dark
-          ? 'bg-[#031E45] shadow-md fixed flex h-[130px] px-1 items-center rounded-r-md justify-center left-0 top-60 w-15 text-white'
-          : 'bg-[#808080] fixed flex h-[150px] items-center px-1 rounded-r-md  justify-center left-0 top-60 w-15 text-white'
+          ? 'bg-[#031E45] shadow-md fixed flex h-[125px] px-1 items-center rounded-r-md justify-center left-0 top-60 w-15 text-white'
+          : 'bg-[#808080] fixed flex h-[125px] items-center px-1 rounded-r-md  justify-center left-0 top-60 w-15 text-white'
       }
     >
       <motion.div
