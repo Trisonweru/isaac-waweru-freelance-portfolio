@@ -92,7 +92,7 @@ const Hero = ({ dark }: props) => {
         animate={animationControl}
         className='flex items-center justify-center relative md:h-full'
       >
-        <div className='-rotate-6 bg-[#8a5f6e] h-[250px] rounded-md shadow-xl w-[300px] md:w-[350px]'></div>
+        <div className='-rotate-6 bg-gradient-to-t from-[#789245] h-[250px] rounded-md shadow-xl to-[#0E3522] w-[300px] md:w-[350px]'></div>
         <div className='absolute bg-[#112035] h-[250px] rounded-md shadow-md w-[300px] md:w-[350px]'>
           <img
             src='/images/profile.jpg'

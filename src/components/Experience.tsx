@@ -21,7 +21,7 @@ function Experience() {
   return (
     <div
       ref={ref}
-      className='flex items-center justify-center mb-3 mt-7 px-3 w-full'
+      className='flex items-center justify-center mb-7 mt-7 px-3 w-full'
     >
       <motion.div
         initial={{
@@ -35,7 +35,8 @@ function Experience() {
           <h2 className='text-sm'>Work Experience</h2>
           <div className='flex flex-col items-center justify-center space-y-3 w-full'>
             <h3 className='text-xl underline'>
-              ME Moringa for Life EPZ LTD - March, 2020 - Nov, 2021
+              ICT Officer - ME Moringa for Life EPZ LTD - March, 2020 - Nov,
+              2021
             </h3>
             <p className='max-w-[80%] text-sm md:max-w-[70%]'>
               At ME Moringa for Life EPZ LTD, I worked as ICT Officer where I
