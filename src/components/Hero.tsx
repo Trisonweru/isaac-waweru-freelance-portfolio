@@ -92,12 +92,20 @@ const Hero = ({ dark }: props) => {
         animate={animationControl}
         className='flex items-center justify-center relative md:h-full'
       >
-        <div className='-rotate-6 bg-gradient-to-t from-[#789245] h-[250px] rounded-md shadow-xl to-[#0E3522] w-[300px] md:w-[350px]'></div>
-        <div className='absolute bg-[#112035] h-[250px] rounded-md shadow-md w-[300px] md:w-[350px]'>
+        <div className='absolute h-[250px] right-1 rounded-full shadow-xl top-5 w-[250px] z-0 md:left-8 md:top-12'>
+          <svg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'>
+            <path
+              fill={dark ? '#031E45' : '#808080'}
+              d='M54.6,-52C71.1,-38.1,85,-19,86.9,1.8C88.7,22.7,78.4,45.4,61.9,60C45.4,74.6,22.7,81.1,0.2,80.9C-22.4,80.8,-44.8,74,-60.5,59.4C-76.2,44.8,-85.2,22.4,-85.2,0C-85.2,-22.4,-76.1,-44.7,-60.4,-58.6C-44.7,-72.5,-22.4,-78,-1.7,-76.3C19,-74.6,38.1,-65.9,54.6,-52Z'
+              transform='translate(100 100)'
+            />
+          </svg>
+        </div>
+        <div className='h-[250px] rounded-full shadow-md w-[250px] z-20'>
           <img
             src='/images/profile.jpg'
             alt='Isaac Waweru'
-            className='h-full object-cover rounded-md shadow-md w-full'
+            className='h-[250px] object-cover rounded-full shadow-lg w-[250px]'
           />
         </div>
       </motion.div>
