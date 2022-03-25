@@ -34,20 +34,20 @@ function Skills() {
   return (
     <div
       ref={ref}
-      className='flex flex-wrap items-center justify-between overflow-x-hidden px-3 space-y-4 w-full md:flex-nowrap md:space-x-8 md:space-y-0'
+      className='flex flex-wrap items-center justify-between overflow-x-hidden px-3 rounded-t-lg space-y-4 w-full md:flex-nowrap md:space-x-8 md:space-y-0'
     >
       <motion.div
         initial={{
           x: '100vw',
         }}
         animate={animationControl}
-        className='bg-[#112035] flex flex-col rounded-b-md shadow shadow-[#112035] w-full'
+        className='bg-[#031E45] flex flex-col shadow shadow-[#031E45] w-full md:p-6 md:rounded-lg'
       >
-        <div className='bg-white h-[300px]'>
+        <div className='bg-white h-[300px] rounded-t-lg md:rounded-lg'>
           <img
             src='/images/Svg-3.svg'
             alt='frontend image'
-            className='h-full object-fit rounded-md shadow-md w-full'
+            className='h-full object-fill rounded-t-lg shadow-md w-full md:rounded-lg'
           />
         </div>
 
@@ -65,13 +65,13 @@ function Skills() {
           x: '-100vw',
         }}
         animate={animationControl}
-        className='bg-[#112035] flex flex-col rounded-b-md shadow shadow-[#112035] w-full'
+        className='bg-[#031E45] flex flex-col rounded-t-lg shadow shadow-[#031E45] w-full md:p-6 md:rounded-lg'
       >
-        <div className='bg-white h-[300px]'>
+        <div className='bg-white h-[300px] rounded-t-lg s md:rounded-lg'>
           <img
             src='/images/Svg-4.svg'
             alt='frontend image'
-            className='h-full object-fit rounded-md shadow-md w-full'
+            className='h-full object-fill rounded-t-lg shadow-md w-full md:rounded-lg'
           />
         </div>
         <div className='px-3 py-3'>
