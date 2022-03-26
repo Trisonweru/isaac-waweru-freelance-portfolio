@@ -48,13 +48,13 @@ function Projects({ dark }: props) {
         animate={animationControl}
         className={
           dark
-            ? 'bg-[#031E45] flex flex-col items-center pb-2 rounded-md shadow-[#112035] shadow-md space-y-4 w-full md:flex-row md:pb-0'
-            : 'bg-[#808080] flex flex-col items-center pb-2 rounded-md shadow-[#808080] shadow-md space-y-4 w-full md:flex-row md:pb-0'
+            ? 'bg-[#031E45] flex flex-col items-center pb-2 rounded-lg shadow-[#112035] shadow-md space-y-4 w-full md:flex-row md:pb-0'
+            : 'bg-[#808080] flex flex-col items-center pb-2 rounded-lg shadow-[#808080] shadow-md space-y-4 w-full md:flex-row md:pb-0'
         }
       >
         <div className='flex items-center w-full'>
           <img
-            className='block m-auto vidyard-player-embed w-[100%]'
+            className='block m-auto rounded-tl-lg vidyard-player-embed w-[100%]'
             src='https://play.vidyard.com/WjKr3fXERPcuPf9n4xZEJg.jpg'
             data-uuid='WjKr3fXERPcuPf9n4xZEJg'
             data-v='4'
@@ -106,8 +106,8 @@ function Projects({ dark }: props) {
       <motion.div
         className={
           dark
-            ? 'bg-[#031E45] flex flex-col items-center pb-2 rounded-md shadow-[#112035] shadow-md space-y-4 w-full md:flex-row-reverse md:pb-0'
-            : 'bg-[#808080] flex flex-col items-center pb-2 rounded-md shadow-[#808080] shadow-md space-y-4 w-full md:flex-row-reverse md:pb-0'
+            ? 'bg-[#031E45] flex flex-col items-center pb-2 rounded-lg shadow-[#112035] shadow-md space-y-4 w-full md:flex-row-reverse md:pb-0'
+            : 'bg-[#808080] flex flex-col items-center pb-2 rounded-lg shadow-[#808080] shadow-md space-y-4 w-full md:flex-row-reverse md:pb-0'
         }
         initial={{
           x: '-100vw',
@@ -116,7 +116,7 @@ function Projects({ dark }: props) {
       >
         <div className='flex items-center w-full'>
           <img
-            className='block m-auto vidyard-player-embed w-[100%]'
+            className='block m-auto rounded-tr-lg vidyard-player-embed w-[100%]'
             src='https://play.vidyard.com/5bZMe5WpRxVMVJ6T1XDMcW.jpg'
             data-uuid='5bZMe5WpRxVMVJ6T1XDMcW'
             data-v='4'
@@ -173,13 +173,13 @@ function Projects({ dark }: props) {
         animate={animationControl}
         className={
           dark
-            ? 'bg-[#031E45] flex flex-col items-center pb-2 rounded-md shadow-[#112035] shadow-md space-y-4 w-full md:flex-row md:pb-0'
-            : 'bg-[#808080] flex flex-col items-center pb-2 rounded-md shadow-[#808080] shadow-md space-y-4 w-full md:flex-row md:pb-0'
+            ? 'bg-[#031E45] flex flex-col items-center pb-2 rounded-lg shadow-[#112035] shadow-md space-y-4 w-full md:flex-row md:pb-0'
+            : 'bg-[#808080] flex flex-col items-center pb-2 rounded-lg shadow-[#808080] shadow-md space-y-4 w-full md:flex-row md:pb-0'
         }
       >
         <div className='flex items-center w-full'>
           <img
-            className='block m-auto vidyard-player-embed w-[100%]'
+            className='block m-auto rounded-tl-lg vidyard-player-embed w-[100%]'
             src='https://play.vidyard.com/2qiPWQGe52QSZhQDQ1qhAx.jpg'
             data-uuid='2qiPWQGe52QSZhQDQ1qhAx'
             data-v='4'
@@ -235,8 +235,8 @@ function Projects({ dark }: props) {
       <motion.div
         className={
           dark
-            ? 'bg-[#031E45] flex flex-col items-center pb-2 rounded-md shadow-[#112035] shadow-md space-y-4 w-full md:flex-row-reverse md:pb-0'
-            : 'bg-[#808080] flex flex-col items-center pb-2 rounded-md shadow-[#808080] shadow-md space-y-4 w-full md:flex-row-reverse md:pb-0'
+            ? 'bg-[#031E45] flex flex-col items-center pb-2 rounded-lg shadow-[#112035] shadow-md space-y-4 w-full md:flex-row-reverse md:pb-0'
+            : 'bg-[#808080] flex flex-col items-center pb-2 rounded-lg shadow-[#808080] shadow-md space-y-4 w-full md:flex-row-reverse md:pb-0'
         }
         initial={{
           x: '-100vw',
@@ -245,7 +245,7 @@ function Projects({ dark }: props) {
       >
         <div className='flex items-center w-full'>
           <img
-            className='block m-auto vidyard-player-embed w-[100%]'
+            className='block m-auto rounded-tr-lg vidyard-player-embed w-[100%]'
             src='https://play.vidyard.com/UY2VSUDRKUBReL2mP3gLhg.jpg'
             data-uuid='UY2VSUDRKUBReL2mP3gLhg'
             data-v='4'
@@ -301,8 +301,8 @@ function Projects({ dark }: props) {
       <motion.div
         className={
           dark
-            ? 'bg-[#031E45] flex flex-col items-center pb-2 rounded-md shadow-[#112035] shadow-md space-y-4 w-full md:flex-row md:pb-0'
-            : 'bg-[#808080] flex flex-col items-center pb-2 rounded-md shadow-[#808080] shadow-md space-y-4 w-full md:flex-row md:pb-0'
+            ? 'bg-[#031E45] flex flex-col items-center pb-2 rounded-lg shadow-[#112035] shadow-md space-y-4 w-full md:flex-row md:pb-0'
+            : 'bg-[#808080] flex flex-col items-center pb-2 rounded-lg shadow-[#808080] shadow-md space-y-4 w-full md:flex-row md:pb-0'
         }
         initial={{
           x: '100vw',
@@ -311,7 +311,7 @@ function Projects({ dark }: props) {
       >
         <div className='flex items-center w-full'>
           <img
-            className='block m-auto vidyard-player-embed w-[100%]'
+            className='block m-auto rounded-tl-lg vidyard-player-embed w-[100%]'
             src='https://play.vidyard.com/teujvKkPwA222De7fRyBoh.jpg'
             data-uuid='teujvKkPwA222De7fRyBoh'
             data-v='4'
