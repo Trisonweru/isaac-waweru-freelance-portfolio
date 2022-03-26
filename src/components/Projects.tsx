@@ -48,8 +48,8 @@ function Projects({ dark }: props) {
         animate={animationControl}
         className={
           dark
-            ? 'bg-[#031E45] flex flex-col items-center pb-2 rounded-lg shadow-[#112035] shadow-md space-y-4 w-full md:flex-row md:pb-0'
-            : 'bg-[#808080] flex flex-col items-center pb-2 rounded-lg shadow-[#808080] shadow-md space-y-4 w-full md:flex-row md:pb-0'
+            ? 'bg-[#031E45] flex flex-col items-center md:p-6  rounded-lg shadow-[#112035] shadow-md space-y-4 w-full md:flex-row md:pb-0'
+            : 'bg-[#808080] flex flex-col items-center md:p-6  rounded-lg shadow-[#808080] shadow-md space-y-4 w-full md:flex-row md:pb-0'
         }
       >
         <div className='flex items-center w-full'>
@@ -106,8 +106,8 @@ function Projects({ dark }: props) {
       <motion.div
         className={
           dark
-            ? 'bg-[#031E45] flex flex-col items-center pb-2 rounded-lg shadow-[#112035] shadow-md space-y-4 w-full md:flex-row-reverse md:pb-0'
-            : 'bg-[#808080] flex flex-col items-center pb-2 rounded-lg shadow-[#808080] shadow-md space-y-4 w-full md:flex-row-reverse md:pb-0'
+            ? 'bg-[#031E45] flex flex-col items-center md:p-6 rounded-lg shadow-[#112035] shadow-md space-y-4 w-full md:flex-row-reverse md:pb-0'
+            : 'bg-[#808080] flex flex-col items-center md:p-6 rounded-lg shadow-[#808080] shadow-md space-y-4 w-full md:flex-row-reverse md:pb-0'
         }
         initial={{
           x: '-100vw',
@@ -173,8 +173,8 @@ function Projects({ dark }: props) {
         animate={animationControl}
         className={
           dark
-            ? 'bg-[#031E45] flex flex-col items-center pb-2 rounded-lg shadow-[#112035] shadow-md space-y-4 w-full md:flex-row md:pb-0'
-            : 'bg-[#808080] flex flex-col items-center pb-2 rounded-lg shadow-[#808080] shadow-md space-y-4 w-full md:flex-row md:pb-0'
+            ? 'bg-[#031E45] flex flex-col items-center md:p-6 rounded-lg shadow-[#112035] shadow-md space-y-4 w-full md:flex-row md:pb-0'
+            : 'bg-[#808080] flex flex-col items-center md:p-6 rounded-lg shadow-[#808080] shadow-md space-y-4 w-full md:flex-row md:pb-0'
         }
       >
         <div className='flex items-center w-full'>
@@ -235,8 +235,8 @@ function Projects({ dark }: props) {
       <motion.div
         className={
           dark
-            ? 'bg-[#031E45] flex flex-col items-center pb-2 rounded-lg shadow-[#112035] shadow-md space-y-4 w-full md:flex-row-reverse md:pb-0'
-            : 'bg-[#808080] flex flex-col items-center pb-2 rounded-lg shadow-[#808080] shadow-md space-y-4 w-full md:flex-row-reverse md:pb-0'
+            ? 'bg-[#031E45] flex flex-col items-center md:p-6 rounded-lg shadow-[#112035] shadow-md space-y-4 w-full md:flex-row-reverse md:pb-0'
+            : 'bg-[#808080] flex flex-col items-center md:p-6 rounded-lg shadow-[#808080] shadow-md space-y-4 w-full md:flex-row-reverse md:pb-0'
         }
         initial={{
           x: '-100vw',
@@ -301,8 +301,8 @@ function Projects({ dark }: props) {
       <motion.div
         className={
           dark
-            ? 'bg-[#031E45] flex flex-col items-center pb-2 rounded-lg shadow-[#112035] shadow-md space-y-4 w-full md:flex-row md:pb-0'
-            : 'bg-[#808080] flex flex-col items-center pb-2 rounded-lg shadow-[#808080] shadow-md space-y-4 w-full md:flex-row md:pb-0'
+            ? 'bg-[#031E45] flex flex-col items-center md:p-6 rounded-lg shadow-[#112035] shadow-md space-y-4 w-full md:flex-row md:pb-0'
+            : 'bg-[#808080] flex flex-col items-center md:p-6 rounded-lg shadow-[#808080] shadow-md space-y-4 w-full md:flex-row md:pb-0'
         }
         initial={{
           x: '100vw',
