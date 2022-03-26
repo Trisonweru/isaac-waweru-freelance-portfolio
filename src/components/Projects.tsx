@@ -42,6 +42,68 @@ function Projects({ dark }: props) {
       className='flex flex-col h-auto items-center mt-8 overflow-x-hidden px-3 space-y-8 w-full'
     >
       <motion.div
+        initial={{
+          x: '100vw',
+        }}
+        animate={animationControl}
+        className={
+          dark
+            ? 'bg-[#031E45] flex flex-col items-center pb-2 rounded-md shadow-[#112035] shadow-md space-y-4 w-full md:flex-row md:pb-0'
+            : 'bg-[#808080] flex flex-col items-center pb-2 rounded-md shadow-[#808080] shadow-md space-y-4 w-full md:flex-row md:pb-0'
+        }
+      >
+        <div className='flex items-center w-full'>
+          <img
+            className='block m-auto vidyard-player-embed w-[100%]'
+            src='https://play.vidyard.com/WjKr3fXERPcuPf9n4xZEJg.jpg'
+            data-uuid='WjKr3fXERPcuPf9n4xZEJg'
+            data-v='4'
+            data-type='inline'
+          />
+        </div>
+        <div className='flex flex-col h-full px-4 space-y-4 w-full'>
+          <h2 className='text-white text-xl'>RealView</h2>
+          <p className='text-sm text-white'>
+            A real estate web application implemented with React/NextJS, Chakra
+            UI Kit and BayutAPI from Rapid API. BayutAPI delivers real estate
+            live data for properties around the world.
+          </p>
+          <div className='flex flex-col flex-wrap space-y-2'>
+            <div className='flex'>
+              <div className='border flex items-center justify-center px-2 rounded-2xl shadow-2xl text-sm text-white whitespace-nowrap'>
+                React/NextJS
+              </div>
+              <div className='border flex items-center justify-center px-2 rounded-2xl shadow-2xl text-sm text-white whitespace-nowrap'>
+                Chakra UI
+              </div>
+              <div className='border flex items-center justify-center px-2 rounded-2xl shadow-2xl text-sm text-white whitespace-nowrap'>
+                Rapid API
+              </div>
+            </div>
+            <div className='flex'>
+              <div className='border flex items-center justify-center px-2 rounded-2xl shadow-2xl text-sm text-white whitespace-nowrap'>
+                Typescript
+              </div>
+              <div className='border flex items-center justify-center px-2 rounded-2xl shadow-2xl text-sm text-white whitespace-nowrap'>
+                Tailwind CSS
+              </div>
+            </div>
+          </div>
+          <div className='flex justify-end space-x-2 w-full'>
+            <UnstyledLink href='https://github.com/Trisonweru/realview'>
+              <div className='border cursor-pointer duration-200 px-3 py-1 rounded-2xl shadow-sm text-white hover:bg-[#5551F8]'>
+                View Code
+              </div>
+            </UnstyledLink>
+            <UnstyledLink href='https://realview-cyan.vercel.app'>
+              <div className='bg-[#5551F8] cursor-pointer px-3 py-1 rounded-2xl shadow-[#5551F8] shadow-sm text-white hover:bg-[#2b2a8b]'>
+                URL
+              </div>
+            </UnstyledLink>
+          </div>
+        </div>
+      </motion.div>
+      <motion.div
         className={
           dark
             ? 'bg-[#031E45] flex flex-col items-center pb-2 rounded-md shadow-[#112035] shadow-md space-y-4 w-full md:flex-row-reverse md:pb-0'
