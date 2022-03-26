@@ -41,7 +41,7 @@ function Skills() {
           x: '100vw',
         }}
         animate={animationControl}
-        className='bg-[#031E45] flex flex-col shadow shadow-[#031E45] w-full md:p-6 md:rounded-lg'
+        className='bg-[#031E45] flex flex-col rounded-lg shadow shadow-[#031E45] w-full md:p-6 md:rounded-lg'
       >
         <div className='bg-white h-[300px] rounded-t-lg md:rounded-lg'>
           <img
@@ -65,7 +65,7 @@ function Skills() {
           x: '-100vw',
         }}
         animate={animationControl}
-        className='bg-[#031E45] flex flex-col rounded-t-lg shadow shadow-[#031E45] w-full md:p-6 md:rounded-lg'
+        className='bg-[#031E45] flex flex-col rounded-lg shadow shadow-[#031E45] w-full md:p-6 md:rounded-lg'
       >
         <div className='bg-white h-[300px] rounded-t-lg s md:rounded-lg'>
           <img
