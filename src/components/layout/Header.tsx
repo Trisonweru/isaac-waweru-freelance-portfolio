@@ -36,7 +36,7 @@ export default function Header({ param }: props) {
                   : 'font-semibold self-center text-xl whitespace-nowrap text-slate-900'
               }
             >
-              Isaac Waweru
+              Portfolio
             </span>
           </UnstyledLink>
 
