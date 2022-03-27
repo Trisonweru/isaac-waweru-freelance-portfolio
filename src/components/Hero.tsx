@@ -45,12 +45,21 @@ const Hero = ({ dark }: props) => {
         <h1
           className={
             dark
-              ? 'text-white w-full  md:text-5xl'
-              : 'text-slate-900 w-full md:text-5xl'
+              ? 'text-white w-full  md:text-5xl font-bold'
+              : 'text-slate-900 w-full md:text-5xl font-bold'
           }
         >
-          Hi, I'm Isaac - Full-stack Web Developer
+          Hi, I'm Isaac
         </h1>
+        <h3
+          className={
+            dark
+              ? 'text-[#5551F8] w-full  md:text-xl font-semibold'
+              : 'text-[#5551F8] w-full md:text-xl font-semibold'
+          }
+        >
+          Full-stack Web Developer
+        </h3>
         <div className='w-full md:w-[80%]'>
           <p className={dark ? 'text-white text-left' : 'text-slate-900'}>
             Experienced Freelance Full-stack Web Developer with a demonstrated
