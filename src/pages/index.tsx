@@ -81,7 +81,7 @@ export default function HomePage() {
               <Projects dark={dark} />
               <ContactButton />
               <Skills />
-              <Experience />
+              <Experience dark={dark} />
             </div>
             <Social dark={dark} />
           </section>

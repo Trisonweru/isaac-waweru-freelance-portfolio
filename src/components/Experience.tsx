@@ -4,7 +4,7 @@ import { useInView } from 'react-intersection-observer';
 
 import UnstyledLink from './links/UnstyledLink';
 
-function Experience() {
+function Experience({ dark }: any) {
   const { inView, entry, ref } = useInView();
   const animationControl = useAnimation();
 
@@ -23,8 +23,20 @@ function Experience() {
       ref={ref}
       className='flex flex-col items-center justify-center mb-14 mt-7 px-3 w-full'
     >
-      <div className='border-b-2 inline-block my-8 pb-4'>
-        <h3 className='font-semibold text-white'>Work Experience</h3>
+      <div
+        className={
+          dark
+            ? 'border-b-2 border-white inline-block my-8 pb-4'
+            : 'border-b-2 border-slate-900 inline-block my-8 pb-4'
+        }
+      >
+        <h3
+          className={
+            dark ? 'font-semibold text-white' : 'font-semibold text-slate-900'
+          }
+        >
+          Work Experience
+        </h3>
       </div>
       <motion.div
         initial={{

@@ -41,8 +41,20 @@ function Projects({ dark }: props) {
       ref={ref}
       className='flex flex-col h-auto items-center mt-8 overflow-x-hidden px-3 space-y-8 w-full'
     >
-      <div className='border-b-2 inline-block mb-8 pb-4'>
-        <h3 className='font-semibold text-white'>Featured Projects</h3>
+      <div
+        className={
+          dark
+            ? 'border-b-2 border-white inline-block mb-8 pb-4'
+            : 'border-b-2 border-slate-900 inline-block mb-8 pb-4'
+        }
+      >
+        <h3
+          className={
+            dark ? 'font-semibold text-white' : 'font-semibold text-slate-900 '
+          }
+        >
+          Featured Projects
+        </h3>
       </div>
       <motion.div
         initial={{
