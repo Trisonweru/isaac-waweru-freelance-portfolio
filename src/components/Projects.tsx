@@ -149,7 +149,7 @@ function Projects({ dark }: props) {
           <div className='flex flex-col flex-wrap space-y-2'>
             <div className='flex'>
               <div className='border flex items-center justify-center px-2 rounded-2xl shadow-2xl text-sm text-white whitespace-nowrap'>
-                NextJS
+                React/NextJS
               </div>
               <div className='border flex items-center justify-center px-2 rounded-2xl shadow-2xl text-sm text-white whitespace-nowrap'>
                 GraphQL
@@ -212,7 +212,7 @@ function Projects({ dark }: props) {
           <div className='flex flex-col flex-wrap space-y-2'>
             <div className='flex'>
               <div className='border flex items-center justify-center px-2 rounded-2xl shadow-2xl text-sm text-white whitespace-nowrap'>
-                NextJS
+                React/NextJS
               </div>
               <div className='border flex items-center justify-center px-2 rounded-2xl shadow-2xl text-sm text-white whitespace-nowrap'>
                 Material UI Toolkit
@@ -278,7 +278,7 @@ function Projects({ dark }: props) {
           <div className='flex flex-col flex-wrap space-y-2'>
             <div className='flex'>
               <div className='border flex items-center justify-center px-2 rounded-2xl shadow-2xl text-sm text-white whitespace-nowrap'>
-                NextJS
+                React/NextJS
               </div>
               <div className='border flex items-center justify-center px-2 rounded-2xl shadow-2xl text-sm text-white whitespace-nowrap'>
                 Material UI Toolkit
