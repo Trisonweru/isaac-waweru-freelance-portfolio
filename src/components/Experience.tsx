@@ -21,8 +21,11 @@ function Experience() {
   return (
     <div
       ref={ref}
-      className='flex items-center justify-center mb-7 mt-7 px-3 w-full'
+      className='flex flex-col items-center justify-center mb-14 mt-7 px-3 w-full'
     >
+      <div className='border-b-2 inline-block my-8 pb-4'>
+        <h3 className='font-semibold text-white'>Work Experience</h3>
+      </div>
       <motion.div
         initial={{
           scale: 0,
@@ -32,12 +35,12 @@ function Experience() {
         className='bg-gradient-to-b flex from-[#C31260] justify-center rounded-md to-[#500621] w-full'
       >
         <div className='flex flex-col items-center justify-center px-3 py-4 space-y-3 text-center text-white w-full'>
-          <h2 className='text-sm'>Work Experience</h2>
+          {/* <h2 className='text-sm'>Work Experience</h2> */}
           <div className='flex flex-col items-center justify-center space-y-3 w-full'>
-            <h3 className='text-xl underline'>
+            <h4 className='text-lg'>
               ICT Officer - ME Moringa for Life EPZ LTD - March, 2020 - Nov,
               2021
-            </h3>
+            </h4>
             <p className='max-w-[80%] text-sm md:max-w-[70%]'>
               At ME Moringa for Life EPZ LTD, I worked as ICT Officer where I
               developed and maintained a wordpress website as well as network

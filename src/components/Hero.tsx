@@ -90,18 +90,19 @@ const Hero = ({ dark }: props) => {
           opacity: 0,
         }}
         animate={animationControl}
-        className='flex items-center justify-center relative md:h-full'
+        className='flex flex-grow items-center justify-center relative md:h-full'
       >
-        <div className='absolute h-[250px] right-1 rounded-full shadow-xl top-5 w-[250px] z-0 md:left-8 md:top-12'>
-          <svg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'>
+        <div className='absolute h-[250px] right-1 rounded-full shadow-xl top-5 w-[250px] md:left-8 md:top-12'>
+          <svg viewBox='10 10 180 180' xmlns='http://www.w3.org/2000/svg'>
             <path
               fill={dark ? '#031E45' : '#808080'}
               d='M54.6,-52C71.1,-38.1,85,-19,86.9,1.8C88.7,22.7,78.4,45.4,61.9,60C45.4,74.6,22.7,81.1,0.2,80.9C-22.4,80.8,-44.8,74,-60.5,59.4C-76.2,44.8,-85.2,22.4,-85.2,0C-85.2,-22.4,-76.1,-44.7,-60.4,-58.6C-44.7,-72.5,-22.4,-78,-1.7,-76.3C19,-74.6,38.1,-65.9,54.6,-52Z'
               transform='translate(100 100)'
+              height='250'
             />
           </svg>
         </div>
-        <div className='h-[250px] rounded-full shadow-md w-[250px] z-20'>
+        <div className='border-2 rounded-full shadow-sm shadow-white z-20'>
           <img
             src='/images/profile.jpg'
             alt='Isaac Waweru'

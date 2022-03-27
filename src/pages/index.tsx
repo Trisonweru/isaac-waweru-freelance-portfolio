@@ -73,7 +73,6 @@ export default function HomePage() {
       <Layout>
         <Seo templateTitle='Freelance Web Developer' />
         <Header param='/' />
-
         <main>
           <section className={dark ? 'bg-[#02142E] relative' : 'bg-white  '}>
             <div className='flex flex-col items-center justify-start layout min-h-screen pt-4 relative text-left'>
