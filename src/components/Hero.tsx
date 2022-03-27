@@ -49,7 +49,7 @@ const Hero = ({ dark }: props) => {
               : 'text-slate-900 w-full md:text-5xl'
           }
         >
-          I'm Freelance Full-stack Web Developer
+          Hi, I'm Isaac - Full-stack Web Developer
         </h1>
         <div className='w-full md:w-[80%]'>
           <p className={dark ? 'text-white text-left' : 'text-slate-900'}>
