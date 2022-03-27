@@ -21,13 +21,13 @@ function Experience({ dark }: any) {
   return (
     <div
       ref={ref}
-      className='flex flex-col items-center justify-center mb-14 mt-7 px-3 w-full'
+      className='flex flex-col items-center justify-center mb-14 mt-8 px-3 w-full'
     >
       <div
         className={
           dark
-            ? 'border-b-2 border-white inline-block my-8 pb-4'
-            : 'border-b-2 border-slate-900 inline-block my-8 pb-4'
+            ? 'border-b-2 border-white inline-block mt-8 mb-14 pb-4'
+            : 'border-b-2 border-slate-900 inline-block mt-8 mb-14 pb-4'
         }
       >
         <h3
