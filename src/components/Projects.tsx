@@ -212,10 +212,10 @@ function Projects({ dark }: props) {
           <div className='flex flex-col flex-wrap space-y-2'>
             <div className='flex'>
               <div className='border flex items-center justify-center px-2 rounded-2xl shadow-2xl text-sm text-white whitespace-nowrap'>
-                React/NextJS
+                NextJS
               </div>
               <div className='border flex items-center justify-center px-2 rounded-2xl shadow-2xl text-sm text-white whitespace-nowrap'>
-                Material UI Toolkit
+                Material UI Kit
               </div>
               <div className='border flex items-center justify-center px-2 rounded-2xl shadow-2xl text-sm text-white whitespace-nowrap'>
                 Prisma
@@ -278,10 +278,10 @@ function Projects({ dark }: props) {
           <div className='flex flex-col flex-wrap space-y-2'>
             <div className='flex'>
               <div className='border flex items-center justify-center px-2 rounded-2xl shadow-2xl text-sm text-white whitespace-nowrap'>
-                React/NextJS
+                NextJS
               </div>
               <div className='border flex items-center justify-center px-2 rounded-2xl shadow-2xl text-sm text-white whitespace-nowrap'>
-                Material UI Toolkit
+                Material UI Kit
               </div>
               <div className='border flex items-center justify-center px-2 rounded-2xl shadow-2xl text-sm text-white whitespace-nowrap'>
                 Prisma
@@ -346,7 +346,7 @@ function Projects({ dark }: props) {
           <div className='flex flex-col flex-wrap space-y-2'>
             <div className='flex'>
               <div className='border flex items-center justify-center px-2 rounded-2xl shadow-2xl text-sm text-white whitespace-nowrap'>
-                React/NextJS
+                NextJS
               </div>
 
               <div className='border flex items-center justify-center px-2 rounded-2xl shadow-2xl text-sm text-white whitespace-nowrap'>
