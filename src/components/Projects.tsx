@@ -76,7 +76,7 @@ function Projects({ dark }: props) {
             data-type='inline'
           />
         </div>
-        <div className='flex flex-col h-full px-4 space-y-4 w-full'>
+        <div className='flex flex-col h-full px-4 py-4 space-y-4 w-full'>
           <h2 className='text-white text-xl'>RealView</h2>
           <p className='text-sm text-white'>
             A real estate web application implemented with React/NextJS, Chakra
@@ -138,7 +138,7 @@ function Projects({ dark }: props) {
             data-type='inline'
           />
         </div>
-        <div className='flex flex-col h-full px-4 space-y-4 w-full'>
+        <div className='flex flex-col h-full px-4 py-4 space-y-4 w-full'>
           <h2 className='text-white text-xl'>LightsOn - Blog</h2>
           <p className='text-sm text-white'>
             A blog web application fully optimized for SEO. The backend of this
@@ -201,7 +201,7 @@ function Projects({ dark }: props) {
             data-type='inline'
           />
         </div>
-        <div className='flex flex-col h-full px-4 space-y-4 w-full'>
+        <div className='flex flex-col h-full px-4 py-4 space-y-4 w-full'>
           <h2 className='text-white text-xl'>TheList</h2>
           <p className='text-sm text-white'>
             An app to help users browse or search different categories of movies
@@ -267,7 +267,7 @@ function Projects({ dark }: props) {
             data-type='inline'
           />
         </div>
-        <div className='flex flex-col h-full px-4 space-y-4 w-full'>
+        <div className='flex flex-col h-full px-4 py-4 space-y-4 w-full'>
           <h2 className='text-white text-xl'>MoneyPlug</h2>
           <p className='text-sm text-white'>
             A prototype project that helps users transfer money to each other
@@ -333,7 +333,7 @@ function Projects({ dark }: props) {
             data-type='inline'
           />
         </div>
-        <div className='flex flex-col h-full px-4 space-y-4 w-full'>
+        <div className='flex flex-col h-full px-4 py-4 space-y-4 w-full'>
           <h2 className='text-white text-xl'>meetme.com</h2>
           <p className='text-sm text-white'>
             meetme.com is an ongoing project on phase 1 where I was supposed to
