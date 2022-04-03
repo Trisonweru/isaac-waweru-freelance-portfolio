@@ -40,13 +40,13 @@ const Hero = ({ dark }: props) => {
           opacity: 0,
         }}
         animate={animationControl2}
-        className='flex flex-col justify-center max-w-2xl space-y-6 w-full md:h-full md:w-[80%]'
+        className='flex flex-col justify-center max-w-2xl mt-4 space-y-6 w-full md:h-full md:mt-0 md:w-[80%]'
       >
         <h1
           className={
             dark
-              ? 'text-white w-full  md:text-5xl font-bold'
-              : 'text-slate-900 w-full md:text-5xl font-bold'
+              ? 'text-white w-full  md:text-5xl font-bold text-center lg:text-left'
+              : 'text-slate-900 w-full md:text-5xl font-bold text-center lg:text-left'
           }
         >
           Hi, I'm Isaac
@@ -61,7 +61,13 @@ const Hero = ({ dark }: props) => {
           Full-stack Web Developer
         </h3>
         <div className='w-full md:w-[80%]'>
-          <p className={dark ? 'text-white text-left' : 'text-slate-900'}>
+          <p
+            className={
+              dark
+                ? 'text-white text-center lg:text-left'
+                : 'text-slate-900 text-center lg:text-left'
+            }
+          >
             Experienced Freelance Full-stack Web Developer with a demonstrated
             history of working in the information technology and services
             industry. My strongest skills are ReactJS/NextJS, AngularJS, Redux,
