@@ -1,6 +1,6 @@
 {
-  "short_name": "Isaac's Portfolio",
-  "name": "Isaac Waweru Portfolio",
+  "short_name": "Isaac Portfolio",
+  "name": "Isaac Portfolio",
   "description": "The leading freelance full-stack web developer in Kenya",
   "icons": [
     {
@@ -44,12 +44,12 @@
       "sizes": "192x192",
       "type": "image/png",
       "density": "4.0",
-      "purpose": "maskable"
+      "purpose": "any maskable"
     }
   ],
   "start_url": "/",
   "background_color": "#02142E",
   "display": "standalone",
-  "scope": "/",
+  "orientation": "portrait",
   "theme_color": "#02142E"
 }
