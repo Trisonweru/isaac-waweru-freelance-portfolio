@@ -51,6 +51,5 @@
   "background_color": "#02142E",
   "display": "standalone",
   "orientation": "portrait",
-  "theme_color": "#02142E",
-  "scope": "/"
+  "theme_color": "#02142E"
 }
