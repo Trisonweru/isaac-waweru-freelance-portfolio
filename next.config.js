@@ -1,5 +1,10 @@
 /** @type {import('next').NextConfig} */
-module.exports = {
+import withPWA from 'next-pwa';
+module.exports = withPWA({
+  pwa: {
+    dest: 'public',
+    disable: process.env.NODE_ENV === 'development',
+  },
   eslint: {
     dirs: ['src'],
   },
@@ -31,4 +36,4 @@ module.exports = {
 
     return config;
   },
-};
+});

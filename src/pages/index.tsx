@@ -69,6 +69,7 @@ export default function HomePage() {
           rel='stylesheet'
           href='https://unicons.iconscout.com/release/v4.0.0/css/line.css'
         ></link>
+        <link rel='manifest' href='/manifest.json' />
       </Head>
       <Layout>
         <Seo templateTitle='Freelance Web Developer' />
