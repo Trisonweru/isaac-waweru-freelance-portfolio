@@ -67,7 +67,7 @@ class MyDocument extends Document {
             sizes='16x16'
             href='/favicon/favicon-16x16.png'
           />
-          <link rel='manifest' href='/favicon/manifest.json' />
+          <link rel='manifest' href='/manifest.json' />
           {/* <link
             rel='mask-icon'
             href='/icons/safari-pinned-tab.svg'
