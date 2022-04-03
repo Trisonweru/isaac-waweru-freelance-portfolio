@@ -40,7 +40,7 @@ const Hero = ({ dark }: props) => {
           opacity: 0,
         }}
         animate={animationControl2}
-        className='flex flex-col justify-center max-w-2xl mt-4 space-y-6 w-full md:h-full md:mt-0 md:w-[80%]'
+        className='flex flex-col justify-center max-w-2xl mt-8 space-y-6 w-full md:h-full md:mt-0 md:w-[80%]'
       >
         <h1
           className={
