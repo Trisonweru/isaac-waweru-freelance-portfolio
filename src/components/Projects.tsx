@@ -155,7 +155,7 @@ function Projects({ dark }: props) {
                 GraphQL
               </div>
               <div className='border flex items-center justify-center px-2 rounded-2xl shadow-2xl text-sm text-white whitespace-nowrap'>
-                GraphQLCMS
+                GraphCMS
               </div>
             </div>
             <div className='flex'>
