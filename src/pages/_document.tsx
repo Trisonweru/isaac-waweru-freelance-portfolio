@@ -19,7 +19,7 @@ class MyDocument extends Document {
         <Head>
           <link rel='manifest' href='/manifest.json' />
           <link rel='aple-touch-icon' href='/favicon/apple-icon.png'></link>
-          <meta name='theme-colorco' color='#02142E' />
+          <meta name='theme-color' color='#02142E' />
           <link
             rel='preload'
             href='/fonts/inter-var-latin.woff2'
