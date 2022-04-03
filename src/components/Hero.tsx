@@ -33,7 +33,7 @@ const Hero = ({ dark }: props) => {
   return (
     <div
       ref={ref}
-      className='flex flex-wrap-reverse h-[650px] items-center justify-center px-3 w-full md:h-[500px] md:justify-between'
+      className='flex flex-wrap-reverse h-[650px] items-center justify-center px-3 w-full md:h-[500px] lg:justify-between'
     >
       <motion.div
         initial={{
