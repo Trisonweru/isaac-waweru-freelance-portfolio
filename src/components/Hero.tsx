@@ -54,8 +54,8 @@ const Hero = ({ dark }: props) => {
         <h3
           className={
             dark
-              ? 'text-[#5551F8] w-full  md:text-xl font-semibold'
-              : 'text-[#5551F8] w-full md:text-xl font-semibold'
+              ? 'text-[#5551F8] w-full  md:text-xl font-semibold text-center lg:text-left'
+              : 'text-[#5551F8] w-full md:text-xl font-semibold text-center lg:text-left'
           }
         >
           Full-stack Web Developer
