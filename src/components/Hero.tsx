@@ -70,11 +70,11 @@ const Hero = ({ dark }: props) => {
           >
             Experienced Freelance Full-stack Web Developer with a demonstrated
             history of working in the information technology and services
-            industry. My strongest skills are ReactJS/NextJS, AngularJS, Redux,
+            industry. My strongest skills are ReactJS/NextJS,Python, Redux,
             Node.js, Typescript, Tailwind CSS, GraphQl, Apollo Client/Server,
-            Prisma, Docker, MongoDB, MySQL and PostgreSQL. Strong engineering
-            professional with a Bachelor's degree focused in Computer Science
-            from Kibabii University.
+            Prisma, Docker, AWS, GCP, MongoDB, MySQL and PostgreSQL. Strong
+            engineering professional with a Bachelor's degree focused in
+            Computer Science from Kibabii University.
           </p>
         </div>
         <div className='flex items-center justify-between w-full md:w-[80%]'>
