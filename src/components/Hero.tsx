@@ -83,10 +83,7 @@ const Hero = ({ dark }: props) => {
               Schedule Interview
             </div>
           </UnstyledLink>
-          <a
-            href='/images/Isaac Waweru Kariithi-CV-2022.pdf'
-            download='File name'
-          >
+          <a href='/images/IsaacKariithi.pdf' download='File name'>
             <div
               className={
                 dark
