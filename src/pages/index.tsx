@@ -6,7 +6,6 @@ import * as React from 'react';
 
 import ArrowDown from '@/components/ArrowDown';
 import ContactButton from '@/components/ContactButton';
-import Experience from '@/components/Experience';
 import Footer from '@/components/Footer';
 import Hero from '@/components/Hero';
 import Header from '@/components/layout/Header';
