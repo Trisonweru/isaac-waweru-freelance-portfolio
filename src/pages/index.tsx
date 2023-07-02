@@ -81,7 +81,8 @@ export default function HomePage() {
               <Projects dark={dark} />
               <ContactButton />
               <Skills />
-              <Experience dark={dark} />
+              <div className='h-4'></div>
+              {/* <Experience dark={dark} /> */}
             </div>
             <Social dark={dark} />
           </section>
